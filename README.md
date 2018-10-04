@@ -4,7 +4,7 @@ This demo project was generated with [Angular CLI](https://github.com/angular/an
 
 
 # Prerequisites
-Install [NodeJs](http://dataworkshop.eu/)
+Install [NodeJs](https://nodejs.org/en/)
 
 ## Development server
 
