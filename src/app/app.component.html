@@ -1,0 +1,18 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+     {{ title }}!
+  </h1>
+  maploaded = {{isData}}
+  <div>
+    <input type="text" name="zoom1" #zoomval value="" placeholder="zoom" />{{zoomval.value}}
+    <button (click)="tapItem(zoomval.value)">update zoom</button>
+  </div>
+  <div>
+    <button (click)="tapKochi()">kochi</button>
+    <button (click)="tapNewYork()">newyork</button>
+    <button (click)="tapLondon()">london</button>
+  </div>
+</div>
+<app-esri-map (mapLoaded)="updateFromChild($event)" [zoom]="zoom" [center]="latLog" ></app-esri-map>
+
