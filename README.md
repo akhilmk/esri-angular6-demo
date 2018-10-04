@@ -1,6 +1,10 @@
-# EsriAngualar6
+# Esri Angular6 Demo App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0-rc.4.
+This demo project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0-rc.4.
+
+
+# Prerequisites
+Install [NodeJs](http://dataworkshop.eu/)
 
 ## Development server
 
